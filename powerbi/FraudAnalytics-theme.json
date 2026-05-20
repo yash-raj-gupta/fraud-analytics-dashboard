@@ -1,0 +1,27 @@
+{
+  "name": "FraudAnalytics",
+  "dataColors": ["#1f6feb","#dc2626","#d97706","#059669","#0a2a59","#475573","#b8860b","#36425a"],
+  "background": "#ffffff",
+  "foreground": "#0f172a",
+  "tableAccent": "#1f6feb",
+  "good": "#059669",
+  "neutral": "#1f6feb",
+  "bad": "#dc2626",
+  "minimum": "#d1fae5",
+  "center": "#fef3c7",
+  "maximum": "#fee2e2",
+  "textClasses": {
+    "title": { "color": "#0a2a59", "fontSize": 18, "fontFace": "Segoe UI Semibold" },
+    "header": { "color": "#0a2a59", "fontSize": 12, "fontFace": "Segoe UI" },
+    "label": { "color": "#475573", "fontSize": 10, "fontFace": "Segoe UI" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#ffffff" } } }],
+        "border": [{ "color": { "solid": { "color": "#e2e8f0" } }, "radius": 8 }],
+        "title": [{ "fontColor": { "solid": { "color": "#0a2a59" } }, "fontSize": 12 }]
+      }
+    }
+  }
+}

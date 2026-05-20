@@ -1,0 +1,91 @@
+merchant_id,merchant_name,category
+9001,"Amazon India",E-commerce
+9002,"Flipkart",E-commerce
+9003,"Myntra",Fashion
+9004,"Ajio",Fashion
+9005,"Meesho",E-commerce
+9006,"Tata CLiQ",E-commerce
+9007,"Nykaa",Fashion
+9008,"Snapdeal",E-commerce
+9009,"JioMart",Groceries
+9010,"BigBasket",Groceries
+9011,"Blinkit",Groceries
+9012,"Zepto",Groceries
+9013,"Swiggy",Food & Dining
+9014,"Zomato",Food & Dining
+9015,"Dominos India",Food & Dining
+9016,"McDonalds India",Food & Dining
+9017,"Cafe Coffee Day",Food & Dining
+9018,"Starbucks IN",Food & Dining
+9019,"IRCTC",Travel
+9020,"MakeMyTrip",Travel
+9021,"Yatra",Travel
+9022,"Goibibo",Travel
+9023,"Cleartrip",Travel
+9024,"IndiGo Airlines",Travel
+9025,"Air India",Travel
+9026,"Vistara",Travel
+9027,"Ola Cabs",Travel
+9028,"Uber India",Travel
+9029,"BookMyShow",Entertainment
+9030,"PVR Cinemas",Entertainment
+9031,"INOX",Entertainment
+9032,"Hotstar",Entertainment
+9033,"Netflix IN",Entertainment
+9034,"Spotify IN",Entertainment
+9035,"Sony LIV",Entertainment
+9036,"JioCinema",Entertainment
+9037,"Croma",Electronics
+9038,"Reliance Digital",Electronics
+9039,"Vijay Sales",Electronics
+9040,"Apple India",Electronics
+9041,"Samsung India",Electronics
+9042,"OnePlus IN",Electronics
+9043,"Mi India",Electronics
+9044,"HP India",Electronics
+9045,"Dell India",Electronics
+9046,"Indian Oil",Fuel
+9047,"HP Petrol",Fuel
+9048,"Bharat Petroleum",Fuel
+9049,"Shell India",Fuel
+9050,"Reliance Petrol",Fuel
+9051,"Apollo Pharmacy",Healthcare
+9052,"1mg",Healthcare
+9053,"Netmeds",Healthcare
+9054,"PharmEasy",Healthcare
+9055,"Practo",Healthcare
+9056,"Tata 1mg",Healthcare
+9057,"Tata Power",Utilities
+9058,"Adani Electricity",Utilities
+9059,"BSES Delhi",Utilities
+9060,"BESCOM",Utilities
+9061,"Airtel Recharge",Utilities
+9062,"Jio Recharge",Utilities
+9063,"Vi Recharge",Utilities
+9064,"BSNL Bills",Utilities
+9065,"WazirX",Crypto Exchange
+9066,"CoinDCX",Crypto Exchange
+9067,"CoinSwitch",Crypto Exchange
+9068,"BinanceP2P-IN",Crypto Exchange
+9069,"ZebPay",Crypto Exchange
+9070,"Dream11",Gambling
+9071,"MPL",Gambling
+9072,"RummyCircle",Gambling
+9073,"BetwayIN",Gambling
+9074,"1xBet-IN",Gambling
+9075,"ParimatchIN",Gambling
+9076,"HDFC ATM",ATM Withdrawal
+9077,"SBI ATM",ATM Withdrawal
+9078,"ICICI ATM",ATM Withdrawal
+9079,"Axis ATM",ATM Withdrawal
+9080,"Kotak ATM",ATM Withdrawal
+9081,"PNB ATM",ATM Withdrawal
+9082,"CashStation",ATM Withdrawal
+9083,"QuickCash24",ATM Withdrawal
+9084,"MoneyMart Express",ATM Withdrawal
+9085,"GreyMerchant LLP",Crypto Exchange
+9086,"NovaPay Solutions",Gambling
+9087,"FastTransfer Global",Crypto Exchange
+9088,"Velocity Pay",Gambling
+9089,"Onyx Trade Hub",Crypto Exchange
+9090,"Apex Settle Co",Gambling

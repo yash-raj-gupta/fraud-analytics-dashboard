@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #f4f6fb;
+    --surface: #ffffff;
+    --border: #e2e8f0;
+    --muted: #64748b;
+    --text: #0f172a;
+  }
+  .dark {
+    --bg: #0a0e18;
+    --surface: #141a28;
+    --border: #232c3f;
+    --muted: #8694b1;
+    --text: #eef1f6;
+  }
+  html, body { background: var(--bg); color: var(--text); }
+  body { font-feature-settings: "cv11", "ss01"; }
+  * { border-color: var(--border); }
+}
+
+@layer components {
+  .surface {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  }
+  .surface-elevated {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.10), 0 2px 6px rgba(15, 23, 42, 0.04);
+  }
+  .muted { color: var(--muted); }
+  .grid-bg {
+    background-image:
+      radial-gradient(rgba(15,23,42,0.04) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+  .dark .grid-bg {
+    background-image:
+      radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  }
+}
+
+/* recharts default text color */
+.recharts-text { fill: var(--muted); }
+.recharts-cartesian-axis-line { stroke: var(--border); }
+.recharts-cartesian-grid line { stroke: var(--border); }
+.recharts-tooltip-wrapper { outline: none !important; }
+
+/* skeumorphic detail on KPI cards */
+.kpi-sheen {
+  background-image: linear-gradient(135deg,
+    rgba(255,255,255,0.5) 0%,
+    rgba(255,255,255,0) 35%,
+    rgba(0,0,0,0.02) 100%);
+}
+.dark .kpi-sheen {
+  background-image: linear-gradient(135deg,
+    rgba(255,255,255,0.03) 0%,
+    rgba(255,255,255,0) 35%,
+    rgba(0,0,0,0.15) 100%);
+}
