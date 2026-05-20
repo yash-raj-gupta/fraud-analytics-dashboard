@@ -21,7 +21,7 @@ const NAV = [
   { href: "/customers", label: "Customer Risk", icon: Users },
   { href: "/merchants", label: "Merchant Intel", icon: Store },
   { href: "/transactions", label: "Transactions", icon: Receipt },
-  { href: "/methodology", label: "Methodology", icon: BookOpen },
+  // { href: "/methodology", label: "Methodology", icon: BookOpen },
 ];
 
 export function Sidebar() {

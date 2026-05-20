@@ -21,8 +21,9 @@ export function RiskPie({ data }: { data: { level: string; count: number; fraudA
           innerRadius={60}
           outerRadius={100}
           paddingAngle={2}
-          label={(d) => `${d.level}: ${intFmt.format(d.count)}`}
-          labelLine={false}
+          minAngle={8}
+          stroke="var(--surface)"
+          strokeWidth={2}
         >
           {data.map((d) => (
             <Cell key={d.level} fill={COLORS[d.level]} />
@@ -34,7 +35,10 @@ export function RiskPie({ data }: { data: { level: string; count: number; fraudA
             border: "1px solid var(--border)",
             borderRadius: 10,
             fontSize: 12,
+            color: "var(--text)",
           }}
+          itemStyle={{ color: "var(--text)" }}
+          labelStyle={{ color: "var(--text)" }}
           formatter={(v: number) => intFmt.format(v)}
         />
         <Legend wrapperStyle={{ fontSize: 12 }} />
